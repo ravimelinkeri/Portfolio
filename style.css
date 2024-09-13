@@ -193,20 +193,52 @@ h1{
 
 /* PROJECT SECTION */
 
-#Projects-heading{
-  padding-top: 5%;
-}
-
-.My-Projects{
+.project-main{
   display: flex;
-  justify-content: space-evenly;
-  /* flex-wrap: wrap; */ 
+  justify-content: center;
+  align-items: center;
+  margin-inline: 5%;
+  margin-block: 5%;
 }
 
-.My-Projects img{
-  height: 80%;
-  width: 95%;
+.project-01{
+  height: 500px;
+  width: 250px;
+  border-radius: 10px;
 }
+
+.img-div{
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  background-color: #FFEEAD;
+  background-image: url("Project-01.jpeg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.skills-para{
+  margin: 0;
+  background-color: #FFEEAD;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: 900;
+  color: #FF006C;
+}
+
+.project-img-del{
+  width: 250px;
+  height: auto;
+  background-color: #FFEEAD;
+  margin: 0;
+  padding-top: 10px;
+  padding-inline: 12px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* overflow-y: auto; */
+}
+
 
 /* GITHUB LINK */
 
