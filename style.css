@@ -286,7 +286,7 @@ h1{
 
 .clg-details{
   background-color: #FFEEAD;
-  height: 30vh;
+  height: auto;
   width: 50vw;
   padding-inline: 15px;
   padding-block: 5px;
