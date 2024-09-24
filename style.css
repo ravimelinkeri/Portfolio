@@ -1,5 +1,4 @@
 *{
-  font-family: ;
   box-sizing: border-box;
 }
 
@@ -88,7 +87,7 @@ body{
 }
 
 .main p span{
-  font-size: 60px;
+  font-size: 70px;
   color: #FFEEAD;
 }
 
@@ -99,7 +98,6 @@ body{
 .main-img{
   height: 270px;
   width: 270px;
-  background-color: aqua;
   background-image: url("Portfolio\ picture.jpg");
   background-size: cover;
   border-radius: 50%;
@@ -195,7 +193,7 @@ h1{
 
 .project-main{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-inline: 5%;
   margin-block: 5%;
@@ -218,26 +216,59 @@ h1{
   border-top-right-radius: 10px;
 }
 
-.skills-para{
+.img-div02{
+  height: 250px;
+  width: 250px;
   margin: 0;
   background-color: #FFEEAD;
-  padding-top: 20px;
-  padding-left: 10px;
-  font-weight: 900;
-  color: #FF006C;
+  background-image: url("project02.svg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-skills{
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFEEAD;
+}
+
+.skills-para{
+  border-radius: 10px;
+  background-color: #FF006C;
+  padding-inline: 6px;
+  padding-block: 2px;
+  color: #FFEEAD;
   border: none;
 }
 
 .project-img-del{
   width: 250px;
-  height: auto;
+  height: 160px;
   background-color: #FFEEAD;
   margin: 0;
   padding-top: 10px;
   padding-inline: 12px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* overflow-y: auto; */
+  overflow-y: scroll;
+}
+
+
+
+.project-img-del::-webkit-scrollbar{
+  width: 4px;
+}
+
+.project-img-del::-webkit-scrollbar-track{
+  background-color: #FFEEAD ; 
+}
+
+.project-img-del::-webkit-scrollbar-thumb{
+  background-color: #FF006C;
+  border-radius: 4px;
 }
 
 
@@ -553,7 +584,7 @@ text-transform: uppercase;
 .header-bar{
   padding-right: 28px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
   align-items: center;
 }
 
@@ -619,14 +650,6 @@ text-transform: uppercase;
  
 }
 
-/* @media (min-width: 550px) and (max-width: 700px){
-
-.main-img{
-  height: 200px;
-  width: 200px;
-}
-  
-} */
 
 @media (max-width:700px){
 
@@ -642,6 +665,13 @@ text-transform: uppercase;
   margin-top: 20px;
   height: 200px;
   width: 200px;
+}
+
+.project-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 }
