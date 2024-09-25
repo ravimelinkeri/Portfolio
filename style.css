@@ -206,23 +206,23 @@ h1{
 }
 
 .img-div{
-  height: 250px;
+  height: 190px;
   width: 250px;
   margin: 0;
   background-color: #FFEEAD;
   background-image: url("Project-01.jpeg");
-  background-size: cover;
+  background-size: contain;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .img-div02{
-  height: 250px;
+  height: 190px;
   width: 250px;
   margin: 0;
   background-color: #FFEEAD;
-  background-image: url("Project002.jpg");
-  background-size: cover;
+  background-image: url("Project-02.jpeg");
+  background-size: contain;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
