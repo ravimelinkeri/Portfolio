@@ -100,7 +100,7 @@ body{
 .main-img{
   height: 270px;
   width: 270px;
-  background-image: url("/IMAGES/Portfolio\ picture.jpg");
+  background-image: url("IMAGES/Portfolio\ picture.jpg");
   background-size: cover;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
