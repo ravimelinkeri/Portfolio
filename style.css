@@ -22,6 +22,17 @@ body{
   background-color: #F5FCFF;
 }
 
+.headerName{
+  font-family: Tangerine;
+  width: 25%;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 32px;
+  color: #08C2FF;
+  /* font-weight: 600; */
+  text-shadow: 3px 4px 2px #ddd;
+}
+
 ..anchorHolder{
   display: flex;
   justify-content: space-evenly;
@@ -589,7 +600,7 @@ text-transform: uppercase;
 
 /* RESPONSIVE DESIGN FOR SMARTPHONE */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 
 .header-bar{
   padding-right: 28px;
@@ -650,7 +661,7 @@ text-transform: uppercase;
 
 /* RESPONSIVE DESIGN FOR TABLET */
 
-@media (min-width: 400px) and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 700px) {
 
 .header-bar{
   padding-right: 28px;
