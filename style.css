@@ -48,6 +48,7 @@ body{
   cursor: pointer;
   padding-left: 20px;
   visibility: hidden;
+  color: #08C2FF;
 }
 
 hr{
@@ -59,6 +60,7 @@ hr{
 .cross{
   text-align: end;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .hambargerManu{
