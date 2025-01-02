@@ -602,7 +602,7 @@ text-transform: uppercase;
 
 /* RESPONSIVE DESIGN FOR SMARTPHONE */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
 .header-bar{
   padding-right: 28px;
@@ -663,7 +663,7 @@ text-transform: uppercase;
 
 /* RESPONSIVE DESIGN FOR TABLET */
 
-@media (min-width: 500px) and (max-width: 700px) {
+@media (min-width: 600px) and (max-width: 700px) {
 
 .header-bar{
   padding-right: 28px;
