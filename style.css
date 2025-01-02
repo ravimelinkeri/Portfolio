@@ -22,19 +22,81 @@ body{
   background-color: #F5FCFF;
 }
 
-.header-bar a{
+..anchorHolder{
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.anchorHolder a{
+  font-family: Tangerine;
+  font-size: 25px;
   outline: none;
- text-decoration: none;
- color: #08C2FF;
- font-weight: 600;
- margin-left: 6%;
- text-underline-offset: 6px;
- transition: all 0.5s ease-in;
+  text-decoration: none;
+  color: #08C2FF;
+  margin-left: 6%;
+  text-underline-offset: 6px;
+  transition: all 0.5s ease-in;
 }
 
 .header-bar a:hover{
   color: #08C2FF;
-  text-decoration: underline #08C2FF 4px ;
+  text-decoration: underline #08C2FF 2px ;
+}
+
+.hambarger{
+  cursor: pointer;
+  padding-left: 20px;
+  visibility: hidden;
+}
+
+hr{
+  color: #181C14;
+  width: 90%;
+  margin-left: -5px;
+}
+
+.cross{
+  text-align: end;
+  cursor: pointer;
+}
+
+.hambargerManu{
+  margin-top: 50px;
+  margin-left: -1000px;
+  width: 40%;
+  background-color: #BCF2F6;
+  color: #08C2FF;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+}
+
+.activehambargerManu{
+  margin-top: 50px;
+  width: 40%;
+  background-color: #BCF2F6;
+  color: #08C2FF;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+}
+
+.activehambargerManu a{
+  font-family: Tangerine;
+  font-size: 30px;
+  outline: none;
+  text-decoration: none;
+  color: #08C2FF;
+}
+
+.activehambargerManu a:hover{
+  padding-left: 10px;
+  transition: all 0.2s ease-in;
 }
 
 /* PROFILE SECTION */
@@ -534,8 +596,12 @@ text-transform: uppercase;
   align-items: center;
 }
 
-.header-bar a{
-  font-size: 13px;
+.anchorHolder{
+  visibility: hidden;
+}
+
+.hambarger{
+  visibility: visible;
 }
 
 .main{
@@ -591,8 +657,8 @@ text-transform: uppercase;
   align-items: center;
 }
 
-.header-bar a{
-  font-size: 13px;
+.anchorHolder a{
+  font-size: 25px;
 }
 
 
